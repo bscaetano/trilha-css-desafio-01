@@ -1,0 +1,109 @@
+/* Estilos globais */
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do banner */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(assets/images/banner.png);
+    padding: 50px;
+    text-align: center;
+}
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.logo img {
+    width: 200px;
+}
+h1 {
+    color: darkblue;
+    font-size: 36px;
+    margin-top: 20px;
+}
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
+section {
+    margin: 100px auto;
+}
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+/* Estilos dos módulos */
+.modules-list {
+    margin: 24px 0;
+}
+.module {
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+span{
+    color: #33A8DB;
+}
+hr{
+    border-color: skyblue;
+}
+/* Estilos da seção "Transforme o Mundo" */
+#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url(assets/images/woman-code.png);
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+}
+#transform-world p{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+}
+/* Estilos da seção "Desafios Profissionais" */
+#professional-challenges {
+    padding: 50px;
+    text-align: center;
+}
+#professional-challenges img {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.dio-logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
